@@ -7,7 +7,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
         while (t-- > 0) {
-            String s = sc.nextLine();
+            String s = sc.next();
             int n = s.length();
             boolean p = false;
             char c [] = s.toCharArray();
