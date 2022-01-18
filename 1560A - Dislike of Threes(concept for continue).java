@@ -12,7 +12,7 @@ public class Main {
             for (int i = 1; i < 1667; i++) {
                 if (i % 3 == 0 || i % 10 == 3) {
                     continue;
-                    // if the above condition is for i then it is skipped
+                    // if the above condition is true for i then it is skipped
 
                     }else{
                         // if it is not true then we will decrement the value of k till 0.
