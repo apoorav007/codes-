@@ -10,7 +10,9 @@ public class Main {
         int t = sc.nextInt();
         while(t-- > 0) {
             long  n = sc.nextLong();
+		// hashset does not store duplicate so use hashset here
             HashSet<Integer> s = new HashSet<>();
+		// when i*i <=n then only add to hashset
             for(int i=1; i*i<=n;i++){
                 s.add(i*i);
             }
